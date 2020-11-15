@@ -451,6 +451,42 @@ module.exports = msgHandler = async (client, message) => {
                 client.sendFile(from, './media/img/tutod.jpg', 'Tutor.jpg', 'Neh contoh mhank!', id)
             }
             break
+	case '!fakta':
+            fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/faktaunix.txt')
+            .then(res => res.text())
+            .then(body => {
+                let splitnix = body.split('\n')
+                let randomnix = splitnix[Math.floor(Math.random() * splitnix.length)]
+                aruga.reply(from, randomnix, id)
+            })
+            .catch(() => {
+                aruga.reply(from, 'Ada yang Error!', id)
+            })
+            break
+        case '!katabijak':
+            fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/katabijax.txt')
+            .then(res => res.text())
+            .then(body => {
+                let splitbijak = body.split('\n')
+                let randombijak = splitbijak[Math.floor(Math.random() * splitbijak.length)]
+                aruga.reply(from, randombijak, id)
+            })
+            .catch(() => {
+                aruga.reply(from, 'Ada yang Error!', id)
+            })
+            break
+        case '!pantun':
+            fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/pantun.txt')
+            .then(res => res.text())
+            .then(body => {
+                let splitpantun = body.split('\n')
+                let randompantun = splitpantun[Math.floor(Math.random() * splitpantun.length)]
+                aruga.reply(from, randompantun.replace(/aruga-line/g,"\n"), id)
+            })
+            .catch(() => {
+                aruga.reply(from, 'Ada yang Error!', id)
+            })
+            break
         case '!quotemaker':
             arg = body.trim().split('|')
             if (arg.length >= 4) {
