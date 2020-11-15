@@ -1,23 +1,23 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/beni1910/Botwa/master/media/img/Kaguya.png" width="128" height="128"/>
+<img src="https://raw.githubusercontent.com/beni1910/botbs/master/media/img/Kaguya.png" width="128" height="128"/>
 </p>
 <p align="center">
-<a href="#"><img title="Botwa" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="botbs" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/beni1910"><img title="Author" src="https://img.shields.io/badge/Author-benniismael-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/beni1910/followers"><img title="Followers" src="https://img.shields.io/github/followers/beni1910?color=blue&style=flat-square"></a>
-<a href="https://github.com/beni1910/Botwa/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/beni1910/whatsapp-bot?color=red&style=flat-square"></a>
-<a href="https://github.com/beni1910/Botwa/network/members"><img title="Forks" src="https://img.shields.io/github/forks/beni1910/whatsapp-bot?color=red&style=flat-square"></a>
-<a href="https://github.com/beni1910/Botwa/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/beni1910/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/beni1910/botbs/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/beni1910/botbs?color=red&style=flat-square"></a>
+<a href="https://github.com/beni1910/botbs/network/members"><img title="Forks" src="https://img.shields.io/github/forks/beni1910/botbs?color=red&style=flat-square"></a>
+<a href="https://github.com/beni1910/botbs/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/beni1910/botbs?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
 ## Clone this project
 
 ```bash
-> git clone https://github.com/beni1910/Botwa
+> git clone https://github.com/beni1910/botbs
 ```
 
 ## Install the dependencies:
@@ -30,7 +30,7 @@ you've just cloned!!
 ```
 
 ### Usage
-Before running this script, first edit [this section](https://github.com/beni1910/Botwa/blob/master/msgHndlr.js#L67) with your WhatsApp number, remember your WhatsApp number!  Not a bot number, then
+Before running this script, first edit [this section](https://github.com/beni1910/botbs/blob/master/msgHndlr.js#L67) with your WhatsApp number, remember your WhatsApp number!  Not a bot number, then
 ```bash
 > npm start
 ```
