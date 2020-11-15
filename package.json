@@ -1,5 +1,5 @@
 {
-  "name": "Botwa",
+  "name": "botbs",
   "version": "2.0.0",
   "description": "Halo sesama pengguna, <b>whatsapp-bot</b> adalah skrip otomatisasi whatsapp atau lebih seperti bot yang merespons kata kunci tertentu dan beberapa fitur lain yang sedang kami kerjakan.",
   "main": "index.js",
@@ -35,13 +35,13 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beni1910/Botwa.git"
+    "url": "git+https://github.com/beni1910/botbs.git"
   },
   "keywords": [
-    "Botwa"
+    "botbs"
   ],
   "bugs": {
-    "url": "https://github.com/beni1910/Botwa/issues"
+    "url": "https://github.com/beni1910/botbs/issues"
   },
-  "homepage": "https://github.com/beni1910/Botwa#readme"
+  "homepage": "https://github.com/beni1910/botbs#readme"
 }
